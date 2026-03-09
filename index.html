@@ -1,1 +1,37 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ChatFlow</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="chat-container">
+
+<h2>ChatFlow</h2>
+
+<div id="loginBox">
+<input type="text" id="username" placeholder="Enter your name">
+<button onclick="login()">Join Chat</button>
+</div>
+
+<div id="chatSection" style="display:none">
+
+<div id="chatBox"></div>
+
+<div class="inputArea">
+<input type="text" id="messageInput" placeholder="Type message">
+<button onclick="sendMessage()">Send</button>
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
